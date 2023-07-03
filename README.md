@@ -12,9 +12,10 @@ python >= 3
 **Input**
 -------------------------------------------
 The input to RUBic is in two formats: 
-\t 1. Binary matrix [Interaction data: eg. Protein-protein interactions, Drug-Drug interaction)]
 
-\t  2. non Binary matrix [Gene expression data of _m_ rows (Genes) and _n_ column (conditions)] \\n
+  1. Binary matrix [Interaction data: eg. Protein-protein interactions, Drug-Drug interaction)]
+  2. non Binary matrix [Gene expression data of _m_ rows (Genes) and _n_ column (conditions)]
+     
 The data file should be comma delimited.
 
 **Usage**
