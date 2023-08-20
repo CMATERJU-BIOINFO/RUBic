@@ -17,7 +17,7 @@ The input to RUBic is in two formats:
   2. non Binary matrix [Gene expression data of _m_ rows (Genes) and _n_ column (conditions)]
      
 The data file should be comma delimited.
-A sample data is 
+A sample data format is given in RUBIC directory. 
 
 **Usage**
 -------------------------------------------
