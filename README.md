@@ -6,7 +6,7 @@ The unsupervised biclustering strategy works both in interaction data and expres
 
 **Environment**
 -------------------------------------------
-C++ 11 compatible compiler such as >=g++4.8
+GCC compiler and/or  C++ 11 compatible compiler 
 python >= 3
 
 **Input**
@@ -17,7 +17,27 @@ The input to RUBic is in two formats:
   2. non Binary matrix [Gene expression data of _m_ rows (Genes) and _n_ column (conditions)]
      
 The data file should be comma delimited.
+A sample data is 
 
 **Usage**
 -------------------------------------------
-_Step 1_ : Convert the expression data into binary matrix if not binary matrix.
+_Step 1_ : Compile the RUBIC.c file with GCC compiler. : RUBIC.o
+
+_Step 2_ : Convert the expression data into binary matrix if not binary matrix.
+
+_Step 3_ : Keep the input file in the same directory  <Example: inputdata.txt>
+
+_Step 4_ : Execute the command:
+
+        ./RUBIC.o <inputfile> <outputfile> <mnc> <mnr> <threshold>
+
+   **inputfile**: input file name
+   
+   **outputfile**: output file name
+   
+   **mnc**: minimum no. of column
+   
+   **mnr**: minimum no. of row
+   
+   **threshold**: for binary 1.
+   
