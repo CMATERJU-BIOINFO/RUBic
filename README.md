@@ -4,10 +4,22 @@
 
 The unsupervised biclustering strategy works both in interaction data and expression data. Initially, it converts the expression data into binary data using mixture of left truncated Gaussian distribution model (LTMG) and find the biclusters using novel encoding and template searching strategy and finally generates the biclusters in two modes base and flex. In base mode RUBic generates maximal biclusters (green borders) and in flex mode results less and biological significant clusters (red bordered). Coloured cell box within the clusters indicates the selected row and column positions.
 
+**Compiler Installation and RUBic Compilation with script**
+-------------------------------------------
+In any linux enviournment open a terminal and execute the following commands:
+1.  chmod +x P1-installandCompile.sh
+2.  ./P1-installandCompile.sh RUBIC.c
+
+**Mannual Setup**
+
 **Environment**
 -------------------------------------------
-GCC compiler and/or  C++ 11 compatible compiler 
-python >= 3
+1. GCC compiler and/or  C++ 11 compatible compiler 
+2. Result Processing and visualisation  :
+
+   a)  python >= 3
+   
+   b)  seaborn
 
 **Input**
 -------------------------------------------
@@ -27,7 +39,7 @@ _Step 2_ : Convert the expression data into binary matrix if not binary matrix.
 
 _Step 3_ : Keep the input file in the same directory  <Example: inputdata.txt>
 
-_Step 4_ : Execute the command:
+_Step 4_ : Execute RUBIC wit the command:
 
         ./RUBIC.o <inputfile> <outputfile> <mnc> <mnr> <threshold>
 
