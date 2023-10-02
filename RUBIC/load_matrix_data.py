@@ -1,13 +1,22 @@
 import numpy as np
 
+
+def read_matrix_from_csv(filename):
+    with open(filename, 'r') as file:
+        reader = csv.reader(file)
+        matrix = list(reader)
+    matrix = np.array(matrix, dtype=int)
+    return matrix
+
 def load_matrix_from_file_charsExp(file_path):
-    
     matrix = [];contd=[];GiD={};ico=0
     ExpMat={}
     with open(file_path, 'r') as file:
         for line in file:
             if line.startswith('o') or line.startswith(' 	C'):     
                 contd = [float(x[1:]) for x in line.split('\t')[1:]]
+                # print(contd)
+                # contd=line.split('\t')[1:]
             else:
                 ir=line.split('\t')
                 GiD[ir[0]]=ico
@@ -20,13 +29,14 @@ def load_matrix_from_file_charsExp(file_path):
     return matrix,ConD,GiD,ExpMat
 
 def load_matrix_from_file_chars(file_path):
-    
     matrix = [];contd=[];GiD={};ico=0
     BinMat={}
     with open(file_path, 'r') as file:
         for line in file:
             if line.startswith('o') or line.startswith(' 	C'):     
                 contd = [float(x[1:]) for x in line.split('\t')[1:]]
+                # print(contd)
+                # contd=line.split('\t')[1:]
             else:
                 ir=line.split('\t')
                 GiD[ir[0]]=ico
@@ -38,20 +48,20 @@ def load_matrix_from_file_chars(file_path):
     ConD= {item: index for index, item in enumerate(contd)}
     return matrix,ConD,GiD,BinMat
 
-def load_matrix_from_file(file_path):
 
+def load_matrix_from_file(file_path):
+    #  ETFB.tsv type file
     matrix = []
     with open(file_path, 'r') as file:
         for line in file:
             row = [int(value) for value in line.strip().split(',')]
             matrix.append(row)
-    print(f'Matrix shape:{np.shape(matrix)}')    
+    print(f'Matrix shape:{np.shape(matrix)}')
     return matrix
 
 ##########################  submatrix loading functions  ###########################################
 
 def load_submatrix_byRC(matrix, row_list, column_list):
-
     submatrix = []
     for row_index in row_list:
         row = [matrix[row_index][column_index] for column_index in column_list]
@@ -59,7 +69,6 @@ def load_submatrix_byRC(matrix, row_list, column_list):
     return submatrix
 
 def load_submatrix_byGeneL(ExpMat,KeyL):  # load_submatrixK0(ExpMat,KeyL):
-
     MatX={}
     for k in KeyL:
         MatX[k]=ExpMat[k]
