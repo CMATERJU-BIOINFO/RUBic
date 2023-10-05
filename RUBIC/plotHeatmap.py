@@ -13,7 +13,6 @@ def draw_heatmap(matrix,row_list, col_list, border_color,m,n,fin):
 
     plt.tight_layout()
     
-   
     print(f"----------{m}-{n}--------------")
     for i in range(m):
         for j in range(n):
@@ -24,6 +23,7 @@ def draw_heatmap(matrix,row_list, col_list, border_color,m,n,fin):
     for t in ax.texts:
         t.set_fontsize(6)  # Set the font size
 
+    plt.savefig(f'{fin}-1.png')
     plt.show()
 
 def HeatmapGenX(data_matrix, Name, row_labels, vmin=None, vmax=None):
