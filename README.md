@@ -49,9 +49,13 @@ In any linux enviournment open a terminal and execute the following commands:
 
 Navigate to the directory **RUBIC**
 
+
 	chmod +x P1-installandCompile.sh
+ 
 	P1-installandCompile.sh RUBIC.c
+ 
 	chmod +x P2-runwargs.sh
+ 
 	P2-runwargs.sh RUBIC inputdata.txt output.txt 2 2 1
    
 
