@@ -1,0 +1,11 @@
+In any linux enviournment open a terminal and execute the following commands:
+Opena terminal nad navigate to the directory RUBIC
+1:  chmod +x P1-installandCompile.sh
+
+2:  ./P1-installandCompile.sh RBC.c
+
+3:  chmod +x P2-runwargs.sh
+
+#  Usage: $0 <executable_file> <input_file> <output_file> <mnr> <mnc> <thr>
+
+4:  ./P2-runwargs.sh RUBIC inputdata.txt output.txt 2 2 1
