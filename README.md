@@ -22,8 +22,6 @@ Each individual expression dataset directory contains,
    
 	c) _kegg annotation data_
 
-
-
 ├── RUBIC
 
 │   ├── inputdata.txt
