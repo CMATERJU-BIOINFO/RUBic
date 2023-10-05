@@ -55,5 +55,5 @@ _Step 4_ : Execute RUBIC wit the command:
 
 ** Visualisation and Result Processing **
 -------------------------------------------
-To visualise the result we have created a python notebook. You can find the details at **RUBIC/RUBIC-Result-Analysis.ipynb**(https://github.com/CMATERJU-BIOINFO/RUBic/blob/main/RUBIC/RUBIC-Result-Analysis.ipynb)**
+To visualise the result we have created a python notebook. You can find the details at (https://github.com/CMATERJU-BIOINFO/RUBic/blob/main/RUBIC/RUBIC-Result-Analysis.ipynb)
    
