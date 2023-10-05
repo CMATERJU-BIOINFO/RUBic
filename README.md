@@ -6,7 +6,7 @@ The unsupervised biclustering strategy works both in interaction data and expres
 
 ## Repository Contents and Data Directory
 
-The **data** directory contains the **dummy** data and four expression datasets named **ecoli_colombos**, **ecoli_dream5**, **yeast_dream5** and **yeast_gpl2529** in compressed format.
+The **data** directory contains the **dummy** data and four expression datasets named 1) **ecoli_colombos**, 2) **ecoli_dream5**, 3) **yeast_dream5** and 4)**yeast_gpl2529** in compressed format.
 The dummy data includes two files, a) input.txt: sample input binary , b)op.txt: corresponding output file by executing RUBIC on the input.txt
 │
 
