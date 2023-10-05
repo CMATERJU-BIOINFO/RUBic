@@ -47,7 +47,7 @@ Each individual expression dataset directory contains,
 -------------------------------------------
 In any linux enviournment open a terminal and execute the following commands:
 
-Navigate to the directory **RUBIC**
+Navigate to the directory **RUBIC**                                               
 
 
 	chmod +x P1-installandCompile.sh
