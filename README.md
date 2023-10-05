@@ -46,7 +46,7 @@ The unsupervised biclustering strategy works both in interaction data and expres
 └── RUBIC-Result-Analysis.ipynb
 
 
-**Compiler Installation and RUBic Compilation with Script**
+**Compiler Installation, RUBic Compilation and Execution Commands**
 -------------------------------------------
 In any linux enviournment open a terminal and execute the following commands:
 
