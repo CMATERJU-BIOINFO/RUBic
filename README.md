@@ -48,10 +48,11 @@ Each individual expression dataset directory contains,
 In any linux enviournment open a terminal and execute the following commands:
 
 Navigate to the directory **RUBIC**
-1.	*chmod +x P1-installandCompile.sh*
-2.	*P1-installandCompile.sh RUBIC.c*
-3.	*chmod +x P2-runwargs.sh*
-4.	*P2-runwargs.sh RUBIC inputdata.txt output.txt 2 2 1*
+
+	*chmod +x P1-installandCompile.sh*
+	*P1-installandCompile.sh RUBIC.c*
+	*chmod +x P2-runwargs.sh*
+	*P2-runwargs.sh RUBIC inputdata.txt output.txt 2 2 1*
    
 
 # Mannual Setup
