@@ -49,6 +49,7 @@ The unsupervised biclustering strategy works both in interaction data and expres
 **Compiler Installation and RUBic Compilation with Script**
 -------------------------------------------
 In any linux enviournment open a terminal and execute the following commands:
+
 Navigate to the directory **RUBIC**
 1.  *chmod +x P1-installandCompile.sh*
 2.  *P1-installandCompile.sh RUBIC.c*
