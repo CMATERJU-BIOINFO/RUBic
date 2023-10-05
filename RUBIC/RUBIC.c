@@ -149,7 +149,7 @@ int main(int argc, char **argv)
 	extra_col=(clst.csize%4==0)? 0: (4-(clst.csize%4)); // to manage column size as multiple of 4
 	printf("\n clst.rsize=%d, csize=%d, extra_column=%d",clst.rsize,clst.csize,extra_col);
 	clst.csize+=extra_col; // to manage column size as multiple of 4
-	printf("\n modified csize=%d",clst.csize);
+	//printf("\n modified csize=%d",clst.csize);
     
 	clst.matrix=(int **)calloc(clst.rsize,sizeof(int *));
 	for(i=0;i<clst.rsize;i++)
@@ -159,7 +159,7 @@ int main(int argc, char **argv)
 	rewind(fp1);
 
 	threshold=atof(argv[5]); //Last One
-	printf("\n::: threshold=%f\n",threshold);
+	//printf("\n::: threshold=%f\n",threshold);
 	printf("\n::: mnr=%d\n",mnr);
 	printf("\n::: mnc=%d\n",mnc);
 	
@@ -222,7 +222,6 @@ int main(int argc, char **argv)
 	fclose(fp3);
 	fclose(fp4);
 	remove("./op_template.txt");
-
 }
 
 //-------------------------------
