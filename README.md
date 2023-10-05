@@ -53,7 +53,7 @@ _Step 4_ : Execute RUBIC wit the command:
    
    **threshold**: for binary 1.
 
-** Visualisation and Result Processing **
+**Visualisation and Result Processing**
 -------------------------------------------
 To visualise the result we have created a python notebook. You can find the details at (https://github.com/CMATERJU-BIOINFO/RUBic/blob/main/RUBIC/RUBIC-Result-Analysis.ipynb)
    
