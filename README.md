@@ -57,7 +57,7 @@ Navigate to the directory **RUBIC**
 4.  *P2-runwargs.sh RUBIC inputdata.txt output.txt 2 2 1*
    
 
-**Mannual Setup**
+# Mannual Setup
 
 **Environment**
 -------------------------------------------
