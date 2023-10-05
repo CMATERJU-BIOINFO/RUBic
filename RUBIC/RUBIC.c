@@ -42,7 +42,7 @@ struct value{
 
 int binaryTodecimal(int r, int j);
 void initializeSet();
-void brijBicluster();
+void RUBIC();
 int templateFound(int *);
 int templateFound_inFile(int *,int); //,char *);
 int search(int,int, int*);
@@ -204,10 +204,10 @@ int main(int argc, char **argv)
 	fprintf(fp2," 1st line shows Bicluster number 'bc#:', 2nd line shows column number 'c:', 3rd line shows row number 'r:' and so on ....");
 	bc.total_bicluster=0;
 
-	puts("\n going to call Fabic");
+	puts("\n Calling RUBic");
 	ftime(&st);
 
-	brijBicluster();
+	RUBIC();
 
 	ftime(&en);
 	// write in output file in pattern 100000010101....
@@ -227,7 +227,7 @@ int main(int argc, char **argv)
 
 //-------------------------------
 
-void brijBicluster()
+void RUBIC()
 {
 	int i,j,k,kk,l,*t,*tt,nonzero_component_num=0;
 	int *temp,temp_sum=0,m=0,n,si=0;
