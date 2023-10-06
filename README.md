@@ -19,14 +19,14 @@ Five different experimental datasets along with a PPI are also included in the d
 	a) Expression+KEGG : contains expression matrix, binary matrix and kegg annotation  for each of 4 sets (ecoli_colombos, ecoli_dream5, yeast_dream5 and yeast_gpl2529)
  
  	b) Match_score_csv
-
-    	c) raw datset_CNS and 
-     
-     	d) PPI 
   
-  	e) Match_score_density_200x200_csv
-   
-   	f) Performance_test_csv
+ 	c) raw datset_CNS and 
+  
+	d) PPI 
+ 
+ 	e) Match_score_density_200x200_csv  
+  
+  	f) Performance_test_csv
     
 
 
