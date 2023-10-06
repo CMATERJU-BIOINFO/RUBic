@@ -20,13 +20,13 @@ Five different experimental datasets along with a PPI are also included in the d
  
  	b) Match_score_csv
   
- 	c) raw datset_CNS and 
+ 	c) raw datset_CNS 
   
-	d) PPI 
+	d) Performance_test_csv
  
- 	e) Match_score_density_200x200_csv  
+ 	e) Match_score_density_200x200_csv  and
   
-  	f) Performance_test_csv
+  	f) PPI
     
 
 
