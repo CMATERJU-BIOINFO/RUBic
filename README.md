@@ -16,18 +16,17 @@ The Dummy data includes two files,
 
 Five different experimental datasets along with a PPI are also included in the data directory
 
-	a) Expression+KEGG : contains expression matrix, binary matrix and kegg annotation  for each of 4 sets (1. ecoli_colombos,
- 2. ecoli_dream5, 3. yeast_dream5 and 4. yeast_gpl2529)
+	a) Expression+KEGG : contains expression matrix, binary matrix and kegg annotation  for each of 4 sets (ecoli_colombos, ecoli_dream5, yeast_dream5 and yeast_gpl2529)
  
  	b) Match_score_csv
 
-    	e) raw datset_CNS and 
+    	c) raw datset_CNS and 
      
-     	f) PPI 
+     	d) PPI 
   
-  	c) Match_score_density_200x200_csv
+  	e) Match_score_density_200x200_csv
    
-   	d) Performance_test_csv
+   	f) Performance_test_csv
     
 
 
