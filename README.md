@@ -25,7 +25,6 @@ Each individual expression dataset directory contains,
 The **RUBIC** directory contains biclustering scripts(**RUBIC.c**), installation scripts (**P1-installandCompile.sh,P2-runwargs.sh**) and jupyter notebook file(**RUBIC-Result-Analysis.ipynb**) with auxilary python scripts.
 
 
-
 **Compiler Installation, RUBic Compilation and Execution Commands**
 -------------------------------------------
 In any linux enviournment open a terminal and execute the following commands:
