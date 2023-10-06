@@ -31,7 +31,6 @@ Five different experimental datasets along with a PPI are also included in the d
 
 
 
-
 The **RUBIC** directory contains biclustering scripts(**RUBIC.c**), installation scripts (**P1-installandCompile.sh,P2-runwargs.sh**) and jupyter notebook file(**RUBIC-Result-Analysis.ipynb**) with auxilary python scripts.
 
 
