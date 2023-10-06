@@ -22,25 +22,8 @@ Each individual expression dataset directory contains,
    
 	c) kegg annotation data
 
-├── RUBIC
+The **RUBIC** directory contains biclustering scripts(**RUBIC.c**), installation scripts (**P1-installandCompile.sh,P2-runwargs.sh**) and jupyter notebook file(**RUBIC-Result-Analysis.ipynb**) with auxilary python scripts.
 
-│   ├── inputdata.txt
-
-│   ├── load_matrix_data.py
-
-│   ├── P1-installandCompile.sh
-
-│   ├── P2-runwargs.sh
-
-│   ├── ParseCluster.py
-
-│   ├── plotHeatmap.py
-
-│   ├── RUBIC.c
-
-│   └── RUBIC-Result-Analysis.ipynb
-
-└── RUBIC-Result-Analysis.ipynb
 
 
 **Compiler Installation, RUBic Compilation and Execution Commands**
