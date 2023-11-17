@@ -4,6 +4,13 @@
 
 The unsupervised biclustering strategy works both in interaction data and expression data. Initially, it converts the expression data into binary data using mixture of left truncated Gaussian distribution model (LTMG) and find the biclusters using novel encoding and template searching strategy and finally generates the biclusters in two modes base and flex. In base mode RUBic generates maximal biclusters (green borders) and in flex mode results less and biological significant clusters (red bordered). Coloured cell box within the clusters indicates the selected row and column positions.
 
+
+## Citation
+
+If you have used **RUBic** in your research, please kindly cite the following publications:
+
+Sriwastava, B.K., Halder, A.K., Basu, S., Chakraborti, T. RUBic: rapid unsupervised biclustering. BMC Bioinformatics 24, 435 (2023).       **DOI** https://doi.org/10.1186/s12859-023-05534-3
+
 ## Repository Contents and Data Directory
 
 The **data** directory contains the **Dummy** data and 5 expression datasets and a PPI data matrix.
